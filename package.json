@@ -1,0 +1,22 @@
+{
+  "name": "ytdl",
+  "version": "1.0.0",
+  "description": "ytdl-audio",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "ytdl-audio-service"
+  ],
+  "author": "ruban",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase": "^7.20.0",
+    "firebase-admin": "^9.1.1",
+    "nodemon": "^2.0.4",
+    "stream-buffers": "^3.0.2",
+    "ytdl-core": "^3.2.2"
+  }
+}
